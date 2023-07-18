@@ -120,7 +120,7 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>ChatGpt</div>
         <div className={styles["sidebar-sub-title"]}>
-          此处可定制为企业自有名称和其他信息
+          此处可定制为企业自有名称,联系微信h285426134
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -181,6 +181,16 @@ export function SideBar(props: { className?: string }) {
           <IconButton
             icon={<GithubIcon />}
             text='企业独立ChatGpt站点'
+            shadow
+          />
+        </a>
+      </div>
+
+      <div className={styles["sidebar-bar-button"]}>
+        <a href="https://docs.qq.com/doc/DZGJ4clJmWUpYdWZN?u=355c394f2acc42e4bec073093f2b96f8" target="_blank">
+          <IconButton
+            icon={<GithubIcon />}
+            text='500元搭建企业官网或外贸独立站'
             shadow
           />
         </a>
